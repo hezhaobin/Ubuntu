@@ -1,0 +1,38 @@
+[Desktop Entry]
+Name=Bioinformatics Programs
+Comment=Collection of programs
+Exec=java -jar /home/hebin/bin/binhe-openauth/JAuth.jar
+Icon=nautilus
+Terminal=false
+Type=Application
+StartupNotify=false
+
+Actions=Openauth;MochiView;Jalview;Figtree;SerialCloner26;SciDAVis;
+
+X-Desktop-File-Install-Version=0.20
+
+[Desktop Action Openauth]
+Name=Openauth
+Exec=java -jar /home/hebin/bin/binhe-openauth/JAuth.jar
+
+[Desktop Action MochiView]
+Name=MochiView
+Exec=java -jar -Xms512m -Xmx1024m /home/hebin/bin/MochiView/INTERNAL_USE/ChipView.jar
+
+[Desktop Action Jalview]
+Name=Jalview
+Exec=jalview
+
+[Desktop Action Figtree]
+Name=Figtree
+Exec=java -jar /home/hebin/Documents/sw/FigTree_v1.4.0/lib/figtree.jar
+
+[Desktop Action SerialCloner26]
+Name=SerialCloner26
+Exec=/home/hebin/Documents/sw/SerialCloner2-6/SerialCloner2.6.1
+
+[Desktop Action SciDAVis]
+Name=SciDAVis
+Exec=scidavis
+X-Terminal=false
+X-MimeType=application/x-sciprj
